@@ -1,9 +1,9 @@
 let userName = prompt('Кто пришёл?');
 
-if (userName === 'Админ') {
+if (userName.toUpperCase() === 'АДМИН') {
     let pass = prompt('Пароль?' );
 
-    if (pass === 'Чёрный Властелин') {
+    if (pass.toUpperCase() === 'ЧЕРНЫЙ ВЛАСТЕЛИН') {
         alert( 'Добро пожаловать!' );
     } else if (pass == null) {
         alert( 'Вход отменён' );
